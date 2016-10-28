@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+     
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-mocks.js"></script>
+     
+    <title></title>
+  </head>
+  <body ng-app="examApp">
+    <h1>Grades</h1>
+    <p>Insert table here</p>
+    <!-- Original table with ng-repeat is commented out to avoid confusion with multiple tables-->
+   <!-- <div id="table" ng-controller="ExamController as ctrl">
+        <table class="table" style="border-style: solid; width: 80%">
+            <tr>
+                <th>Name</th>
+                <th>Basic Programming</th>
+                <th>Advanced Programming</th>
+                <th>DataBase Intro</th>
+                <th>Average</th>
+                
+            </tr>
+            <tr ng-repeat="x in ctrl.student.students">
+                <td>{{x.name}}</td>
+                <td>{{x.grades[0].grade}}</td>
+                <td>{{x.grades[1].grade}}</td>
+                <td>{{x.grades[2].grade}}</td>
+                <td>{{x | averageGrade}}</td>
+        </table>    
+        
+    </div> -->
+   
+  <students> </students>
+    
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
